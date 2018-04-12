@@ -1,43 +1,29 @@
-// function initPage() {
-//   // Empty the article container, run an AJAX request for any unsaved headlines
-//   articleContainer.empty();
-//   $.get("/api/headlines?saved=false").then(function(data) {
-//     // If we have headlines, render them to the page
-//     if (data && data.length) {
-//       renderArticles(data);
-//     }
-//     else {
-//       // Otherwise render a message explaing we have no articles
-//       renderEmpty();
-//     }
-//   });
-// }
 
 $("#saveArticle").click(function (req, res) {
 
 
-  var thidID = {
+  var thisID = {
 
     _id: req.params.id
 
   }
 
-  $ajax({
+  $.ajax({
 
-    url: "/articles/" + thisIS,
+    url: "/articles/" + thisID,
     type: "PUT",
     data: thisID,
-    sucess: function (data) {
+    // sucess: function (data) {
 
-    }
+    
   });
   res.redirect("/")
 });
-
+$(document).on("click", "#notesclick", function()
 // Whenever someone clicks a p tag
-$(document).on("click", "p", function() {
+ {
   // Empty the notes from the note section
-  $("#notes").empty();
+   $("#notes").empty();
   // Save the id from the p tag
   var thisId = $(this).attr("data-id");
 

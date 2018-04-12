@@ -28,15 +28,24 @@
                     <form action="/articles/{{this.id}}?_method=PUT" method="POST">
                         <input type="hidden" name="saved" value="true" id="saveArticle">
                         <button class="btn btn-success" type="submit">Save Article</button>
-                        
+                                  
                     </form>
+                     
+                        
+                       
+                        
+                        <button class='btn btn-success add' data-id={{this.id}} id="notesclick">Add Note</button>
+                        <div id="notes"></div>
+                
+
                 </div>
                 <div class="panel-body"><p>{{this.summary}}</p></div>
+                
             </div>
             {{/unless}} {{/each}}
         </ul>
     </div>
-    <div id="notes"></div>
+    {{!-- <div id="notes"></div> --}}
 </div>
 <!-- Modal -->
 <div class="modal fade" id="scrapecomplete myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
