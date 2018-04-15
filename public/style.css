@@ -1,32 +1,39 @@
 
-      body { background-color: #F2F6D0 }
+      body { background-color: rgb(241, 241, 235) }
       #wrapper {
         width: 960px;
-        margin-left: auto;
-        margin-right: auto;
+        /* margin-left: auto;
+        margin-right: auto; */
         padding-top: 5%;
       }
-      #articles {
+      .navbar {
+        width: 960px;
+        margin-left: 40px;
+        
+      }
+      /* #articles {
         display: inline-block;
         overflow: auto;
         width: 60%;
         height: 700px;
-      }
+      } */
       #notes {
-        float: right;
-        width: 30%;
+        /* float: right; */
+        width: 40%;
       }
       textarea, input {
         display: block;
         width: 100%;
-        background-color: #FCF5C7;
+        background-color: rgb(201, 238, 245);
       }
       input {
-        height: 36px;
+        height: 30px;
         font-size: 24px;
       }
       textarea {
-        height: 200px;
+        height: 70px;
         font-size: 18px;
       }
-    
+    li {
+        font-size: 50px !important;
+    }
