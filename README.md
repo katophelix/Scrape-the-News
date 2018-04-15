@@ -22,7 +22,7 @@ Scrape the news is a web scraping tool.
 # Using FriendFinder
 Users can click the "Scrape" button and scrape ESPN SWoccer News! They can also make and sve notes regarding the articles they have scraped!
 
-![Scrape](public/untitled.gif)
+![Scrape](public/Untitled.gif)
 
 ![Notes](public/scrn2.gif)
 
