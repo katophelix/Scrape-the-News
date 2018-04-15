@@ -1,8 +1,6 @@
 # Scrape-the-News
 
- ## FriendFinder
-
-
+ 
 ## Overview
 Scrape the news is a web scraping tool.
 
@@ -19,7 +17,7 @@ Scrape the news is a web scraping tool.
 * Mongoose
 * Mongo
 
-# Using FriendFinder
+# Using Scraper
 Users can click the "Scrape" button and scrape ESPN SWoccer News! They can also make and sve notes regarding the articles they have scraped!
 
 ![Scrape](public/Untitled.gif)
